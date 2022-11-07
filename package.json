@@ -2,11 +2,12 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "recipe app",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
-  "author": "PavelSuspicin",
+  "author": "Pavel Suspicin",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
