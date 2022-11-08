@@ -1,3 +1,0 @@
-# Forkify application
-
-Recipe application
